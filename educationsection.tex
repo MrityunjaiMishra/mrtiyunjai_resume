@@ -1,0 +1,31 @@
+\documentclass[paper=a4,fontsize=12pt]{scrartcl}
+\fontfamily{SanSerif}						
+\usepackage{graphicx}               
+\usepackage[top=2cm]{geometry}
+
+\frenchspacing              
+\pagestyle{empty}          
+
+\usepackage{sectsty}
+
+\sectionfont{%			           	
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+		
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+
+\begin{document}
+
+\NewPart{Education}
+
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Degree} &\textbf{ College/School}   & \textbf{University}& \textbf{Passing Year} & \textbf{Percentage}                                                    \\ \hline
+SSC  & \begin{tabular}[c]{@{}l@{}}Abhinav Vidya\\ Mandir\end{tabular}            & \begin{tabular}[c]{@{}l@{}}Maharashtra\\ Board\end{tabular} & 2014         & 90.20\%                                                       \\ \hline
+HSC   & \begin{tabular}[c]{@{}l@{}}Nirmala Memorial\\ College\end{tabular}        & \begin{tabular}[c]{@{}l@{}}Maharashtra\\ Board\end{tabular} & 2016         & 80\%                                                          \\ \hline
+\begin{tabular}[c]{@{}l@{}}Bachelor in   \\ Engineering\\ (computer)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Atharva College of \\ Engineering\end{tabular} & \begin{tabular}[c]{@{}l@{}}Mumbai\\ University\end{tabular} & 2020         & \begin{tabular}[c]{@{}l@{}}8.9 \\ (avg of 5 sem)\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
+\end{document}
