@@ -1,0 +1,32 @@
+\documentclass[paper=a4,fontsize=12pt]{scrartcl}
+\fontfamily{SanSerif}						
+\usepackage{graphicx}               
+\usepackage[top=2cm]{geometry}
+
+
+\frenchspacing              
+\pagestyle{empty}          
+
+\usepackage{sectsty}
+
+\sectionfont{%			           	
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+		
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+
+\begin{document}
+
+
+
+\NewPart{Personal Details}{}
+\begin{minipage}{0.6\textwidth}\raggedright 
+\indent Father's Name:\textbf{Rajesh Mishra} \\
+\indent Mother's Name: \textbf{Babita Mishra} \\
+\indent Sex: \textbf{Male}\\
+\indent Date of Birth: \textbf{14 February 2019}\\
+\indent Nationality: \textbf{Indian}\\
+\indent Marital Status: \textbf{Single}\\
+\end{minipage}
+
+\end{document}
